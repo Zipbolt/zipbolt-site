@@ -1,0 +1,107 @@
+.contact-container {
+  width: 100%;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.contact-container > h1 {
+  color: #0dcaf0;
+  font-size: 80px;
+}
+
+.contact-container > h2 {
+  margin-top: 50px;
+  color: #000;
+  font-size: 36px;
+}
+.contact-container > h2 > span {
+  color: #0dcaf0;
+  font-size: 36px;
+}
+
+.contact-wrapper > h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0dcaf0;
+}
+
+.cw-container-row {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.cw-container-col {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  min-height: 1px;
+
+  /* vertical-align: middle;
+  justify-content: center; */
+}
+
+.cw-container-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cw-container-title {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #0dcaf0;
+}
+
+.cw-container-link > a {
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+/* .cw-container-link > a:hover {
+  font-size: 110%;
+} */
+
+.cw-container-col > img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  border-style: none;
+  padding: 20px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+}
+
+.email-link:hover {
+  text-decoration: none;
+  color: #0dcaf0;
+}
+
+.map-link:hover {
+  color: #0dcaf0;
+}
+
+.tel-link {
+  text-decoration: none;
+  color: black;
+}
+
+.tel-link:hover {
+  color: #0dcaf0;
+}
